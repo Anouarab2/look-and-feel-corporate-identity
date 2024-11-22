@@ -62,6 +62,10 @@ summary{
     margin-top: 23em;
 }
 
+.aanmeldButton:hover{
+    opacity: var(--button-opacity);
+}
+
 .popupButton{
     color: var(--section-color-2);
     background-color: var(--section-color-5);
@@ -69,6 +73,10 @@ summary{
     border-radius: var(--radius-card);
     width: 18em;
     height: 2em;
+}
+
+.popupButton:hover{
+    opacity: var(--button-opacity);
 }
 
 dialog{
