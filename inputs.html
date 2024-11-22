@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/inputs.css">
+    <title>Inputs</title>
+</head>
+
+<body>
+
+    <form>
+        <label for="site-search">Search the site:</label>
+        <input type="search" id="site-search" name="q" maxlength="10"/>
+        <button>Search</button>
+    </form>
+
+    <form>
+        <div>
+          <label for="example">Input Below</label>
+          <input id="example" type="text" name="text" />
+        </div>
+        <div>
+          <input type="submit" value="Send Request" accesskey="g"/>
+        </div>
+    </form>
+
+    <form>
+        <label for="email">Enter your example.com email:</label>
+        <input type="email" id="email" pattern=".+@example\.com" size="30" required multiple/>     
+    </form>
+    
+    
+</body>
+
+</html>
