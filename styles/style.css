@@ -39,6 +39,7 @@ main{
     border-radius: var(--radius-big-card);
     height: 23em;
     width: 80vw;
+    padding-inline: 1em;
 }
 
 details{
