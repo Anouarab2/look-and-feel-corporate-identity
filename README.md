@@ -1,41 +1,15 @@
-# Corporate Identity
-
-Ontwerp en maak voor een opdrachtgever een website op basis van een bestaande huisstijl.
-
-De instructie vind je in: [INSTRUCTIONS](https://github.com/fdnd-task/look-and-feel-corporate-identity/blob/main/docs/INSTRUCTIONS.md)
-
-
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
-
-## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
-
-## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
-
-## Bronnen
-
-## Licentie
-
-This project is licensed under the terms of the [MIT license](./LICENSE).
-
-
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 
 ## Intro
 Wij hebben als opdracht gekregen om van de verschillende websites 1 mooie eindversie te maken. Mijn taak was om te beginnen met de "Over ons" pagina.
- 
+
 # Impact Report UncInc
 Welkom op mijn Github pagina voor Bieb in Bloei
-![isolated_tablet_laptop_and_smartphone_composition](https://github.com/user-attachments/assets/efe4770f-5ade-47b8-89c3-373486ad180b)
-![3DB1B4E3-447C-4CE7-B0F4-EC8E99D18516_1_201_a](https://github.com/user-attachments/assets/169f8db2-2f78-40ae-bd5c-804497668171)
-![E0D12086-B378-4524-97B2-9314527A04F0_1_201_a](https://github.com/user-attachments/assets/3470a73e-db8b-44fe-9619-995802165cdc)
+![9C39CC37-ABA3-4C0B-B83D-66BC464673C9_1_201_a](https://github.com/user-attachments/assets/24e4313e-15ee-4562-a4c4-ec8b8906836b)
+![2E5A4360-9626-4E18-B33C-0FE5DCE4FBC0_1_201_a](https://github.com/user-attachments/assets/df9cc1a2-7e5b-47e1-839f-07303781054b)
+![23A2D1F2-5CCF-4B3D-8F9D-4311BA9D7D52_1_201_a](https://github.com/user-attachments/assets/73162437-cdd0-47f9-b2ae-9481a03cf6e8)
 
- 
 
 ## 📖 Inhoudsopgave
  
