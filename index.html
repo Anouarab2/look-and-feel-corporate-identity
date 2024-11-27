@@ -12,13 +12,35 @@
 </head>
 <body>
     <header>
-        <h1>Agenda</h1>
+        <nav>
+            <ul class="sideBar">
+                <li onclick=closeSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="#">pagina1</a></li>
+                <li><a href="#">pagina2</a></li>
+                <li><a href="#">pagina3</a></li>
+                <li><a href="#">pagina4</a></li>
+            </ul>
+            <ul>
+                <li><a href="index.html" class="logo"><img src="assets/Neutraal.svg" alt="foto van harry de mascotte" class="fotoLogo"></a></li>
+                <li class="hideOnMobile"><a href="#">pagina1</a></li>
+                <li class="hideOnMobile"><a href="#">pagina2</a></li>
+                <li class="hideOnMobile"><a href="#">pagina3</a></li>
+                <li class="hideOnMobile"><a href="#">pagina4</a></li>
+                <li class="menuButton" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+
+            <article class="heading1">
+                <h1>Agenda</h1>                
+            </article>
+
+        </nav>   
+        
     </header>
     
     <main>
         <section class="workshopZaaien">
-            <details>
-                <summary>Workshop zaaien</summary>
+            <details class="detailsZaaien">
+                <summary class="summaryZaaien">Workshop zaaien</summary>
                 bij de OBA linnaeusstraat houden we regelmatig workshops waar wij samen gaan zaaien.
             </details>
 
@@ -28,75 +50,140 @@
                 <li>29/05/2024</li>
             </ul>
 
-            <button popovertarget="popup" class="aanmeldButton">Meld je aan!</button>
+            <button popovertarget="popup" class="button-green">Meld je aan!</button>
             <dialog popover id="popup">
                 <p>Aangemeld!</p>
                 <button popovertarget="popup" popovertargetaction="hide" class="popupButton">Terug naar site</button>
               </dialog>
         </section>
 
-        <section class="stekjesMaken">
-            <img src="assets/fiets.webp" alt="foto van fiets met plant" class="stekjesFoto">
-            <h2>Stekjes maken</h2>
-            <ul>
-                <li>OBA Linnaeusstraat</li>
-                <li>10,-</li>
-                <li>3/19/2023</li>
-            </ul>
+        <section class="extraInfo">
+            <p>Workshops zijn fantastische leermogelijkheden waarbij deelnemers 
+                praktische vaardigheden kunnen verwerven, nieuwe kennis kunnen 
+                opdoen en vaak ook nieuwe mensen kunnen ontmoeten.</p>
+            <details class="detailsInfo">
+                <summary class="summaryInfo">Extra Info</summary>
+                Het idee achter jouw website om een overzicht te bieden van beschikbare workshops
+                is geweldig, omdat het mensen kan helpen om gemakkelijk toegang te krijgen tot deze 
+                waardevolle leermogelijkheden. Ontdek en Leer met Onze Workshopgids Welkom bij Plantswap, dé plek om workshops te ontdekken die jouw vaardigheden kunnen verbeteren, je passies kunnen verdiepen en je horizon kunnen verbreden
+            </details>
         </section>
 
         <section class="stekjesMaken">
             <img src="assets/fiets.webp" alt="foto van fiets met plant" class="stekjesFoto">
-            <h2>Stekjes maken</h2>
-            <ul>
-                <li>OBA Linnaeusstraat</li>
-                <li>10,-</li>
-                <li>3/19/2023</li>
-            </ul>
+
+            <article class="stekjesTekst">
+                <h2>Stekjes maken</h2>
+                <ul>
+                    <li>OBA Linnaeusstraat</li>
+                    <li>10,-</li>
+                    <li>3/19/2023</li>
+                </ul>
+            </article>
         </section>
 
         <section class="stekjesMaken">
             <img src="assets/fiets.webp" alt="foto van fiets met plant" class="stekjesFoto">
-            <h2>Stekjes maken</h2>
-            <ul>
-                <li>OBA Linnaeusstraat</li>
-                <li>10,-</li>
-                <li>3/19/2023</li>
-            </ul>
+            <article class="stekjesTekst">
+                <h2>Stekjes maken</h2>
+                <ul>
+                    <li>OBA Linnaeusstraat</li>
+                    <li>10,-</li>
+                    <li>3/19/2023</li>
+                </ul>
+            </article>
         </section>
-        
+
         <section class="stekjesMaken">
             <img src="assets/fiets.webp" alt="foto van fiets met plant" class="stekjesFoto">
-            <h2>Stekjes maken</h2>
-            <ul>
-                <li>OBA Linnaeusstraat</li>
-                <li>10,-</li>
-                <li>3/19/2023</li>
-            </ul>
+            <article class="stekjesTekst">
+                <h2>Stekjes maken</h2>
+                <ul>
+                    <li>OBA Linnaeusstraat</li>
+                    <li>10,-</li>
+                    <li>3/19/2023</li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="stekjesMaken">
+            <img src="assets/fiets.webp" alt="foto van fiets met plant" class="stekjesFoto">
+            <article class="stekjesTekst">
+                <h2>Stekjes maken</h2>
+                <ul>
+                    <li>OBA Linnaeusstraat</li>
+                    <li>10,-</li>
+                    <li>3/19/2023</li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="stekjesMaken">
+            <img src="assets/fiets.webp" alt="foto van fiets met plant" class="stekjesFoto">
+            <article class="stekjesTekst">
+                <h2>Stekjes maken</h2>
+                <ul>
+                    <li>OBA Linnaeusstraat</li>
+                    <li>10,-</li>
+                    <li>3/19/2023</li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="stekjesMaken">
+            <img src="assets/fiets.webp" alt="foto van fiets met plant" class="stekjesFoto">
+            <article class="stekjesTekst">
+                <h2>Stekjes maken</h2>
+                <ul>
+                    <li>OBA Linnaeusstraat</li>
+                    <li>10,-</li>
+                    <li>3/19/2023</li>
+                </ul>
+            </article>
         </section>
 
     </main>
 
     <footer>
+
+        <div>
         <h3>Adres</h3>
-        <ul class="adresGegevens">
-            <li>OBA Linnaeusstraat</li>
-            <li>Linnaeusstraat 44</li>
-            <li>1092 CL Amsterdam</li>
-        </ul>
+            <ul class="adresGegevens">
+                <li>OBA Linnaeusstraat</li>
+                <li>Linnaeusstraat 44</li>
+                <li>1092 CL Amsterdam</li>
+            </ul>
+        </div>
 
-        <h3>Contact</h3>
-        <ul class="contactGegevens">
-            <li>buurtcampusoost@hva.nl</li>
-            <li>06 43450198</li>
-            <li>BTW 0055.81.205.B01</li>
-        </ul>
+        <div>
+            <h3>Contact</h3>
+            <ul class="contactGegevens">
+                <li>buurtcampusoost@hva.nl</li>
+                <li>06 43450198</li>
+                <li>BTW 0055.81.205.B01</li>
+            </ul>
+        </div>
 
-        <h3>Samenwerken</h3>
-        <ul class="samenwerkInfo">
-            <li>Wil jij met andere organisaties, buurtbewoners en studenten samenwerken aan de stedelijke uitdagingen van
-                Amsterdam Oost? Stuur een e-mail naar buurtcampusoost@hva.nl.</li>
-        </ul>
+        <div>
+            <h3>Samenwerken</h3>
+            <ul class="samenwerkInfo">
+                <li>Wil jij met andere organisaties, buurtbewoners en studenten samenwerken aan de stedelijke uitdagingen van
+                    Amsterdam Oost? Stuur een e-mail naar buurtcampusoost@hva.nl.</li>
+            </ul>
+        </div>
     </footer>
+
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+
+        function closeSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+
 </body>
 </html>
